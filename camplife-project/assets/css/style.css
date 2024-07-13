@@ -1,0 +1,228 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.sectionp1{
+    margin: 0px;
+    padding: 35px;
+}
+
+#header{
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+}
+#headertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 30px;
+}
+
+#headertop a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+#header-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkblue;
+    padding: 20px;
+    /* position: sticky;
+    top: 0; */
+    box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.09);
+}
+
+#header-items .branding{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#header-itema .branding  a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: flex-start; */
+}
+
+#navbar .navbar-menu li{
+    list-style-type: none;
+}
+
+#navbar .navbar-menu li a{
+    text-decoration: none; 
+    padding: 10px 20px;
+    color: aliceblue;
+    transition: ease 0.5s;
+    border-radius: 20px;
+}
+
+#navbar .navbar-menu li a:hover{
+    /* color: tomato; */
+    background-color: aliceblue;
+    border-radius: 20px;
+    /* padding: 10px 20px; */
+    color: blue;
+    transition: ease 0.5s;
+}
+
+#navbar .navbar-menu li a:hover,
+#navbar .navbar-menu li a.active{
+    background-color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: blue;
+    transition: ease 0.5s;
+}
+
+#header-items .signin{
+    padding: 10px 35px;
+}
+
+#header-items  .signin a{
+    text-decoration: none;
+    background-color: azure;
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1 solid brown;
+    border-radius: 20px;
+}
+
+#hero{
+    background-color:aliceblue;
+    text-align: center;
+    background-image: url();
+
+}
+#hero .intro {
+    color: darkblue;
+}
+#hero .intro p{
+    padding: 20px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+#hero .start a{
+    border-radius: 20px;
+    margin: 0 12px;
+    margin: 5px; 
+    padding: 10px 20px;
+    color: aliceblue;  
+    background-color: darkblue;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+
+#hero .start a:hover{
+    text-decoration: none;
+    background-color: azure;
+    color: darkblue;
+    border: 1 solid brown;
+    border-radius: 20px;
+    transition: ease 0.5s;
+}
+
+/* Landing pages css docs  */
+
+
+#landing .part1 .part1-content{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#landing .part1 .part1-content img{
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#landing .part1 .part1-content .part1msg{
+    padding:5px 20px;
+}
+
+#landing .part1 .part1-content .part1msg h3{
+    font-size: 30px;
+    padding-bottom: 2px;
+    color: darkblue;
+}
+#landing .part1 .part1-content .part1msg p{
+    font-size: 20px;
+    padding-bottom: 42px;
+}
+
+#landing .part1 .part1-content .part1msg .part1-paths a{
+    border-radius: 20px;
+    margin: 0 12px;
+    margin: 5px; 
+    padding: 10px 20px;
+    color: aliceblue;  
+    background-color: darkblue;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+
+#landing .part1 .part1-content .part1msg .part1-paths a:hover{
+    text-decoration: none;
+    background-color: azure;
+    color: darkblue;
+    border: 1 solid brown;
+    border-radius: 20px;
+    transition: ease 0.5s;
+}
+
+#landing .part2 .part2-content{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#landing .part2 .part2-content img{
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#landing .part2 .part2-content .part2msg{
+    padding:5px 20px;
+}
+
+#landing .part2 .part2-content .part2msg h3{
+    font-size: 30px;
+    padding-bottom: 2px;
+    color: darkblue;
+}
+#landing .part2 .part2-content .part2msg p{
+    font-size: 20px;
+    padding-bottom: 42px;
+}
+
+#landing .part2 .part2-content .part2msg .part2-paths a{
+    border-radius: 20px;
+    margin: 0 12px;
+    margin: 5px; 
+    padding: 10px 20px;
+    color: aliceblue;  
+    background-color: darkblue;
+    transition: ease 0.5s;
+    text-decoration: none;
+}
+
+#landing .part2 .part2-content .part1msg .part2-paths a:hover{
+    text-decoration: none;
+    background-color: azure;
+    color: darkblue;
+    border: 1 solid brown;
+    border-radius: 20px;
+    transition: ease 0.5s;
+}
+
+/*  */

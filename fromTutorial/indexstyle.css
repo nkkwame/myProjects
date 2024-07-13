@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-background:#ffffff;
+    --background-color: #f7f7f7;
+    --main-text:#333333;
+    --accent-color:#add8e6;
+    --subtitle-text:#555555;
+    --sub-subtitle-text:#777777;
+    --hover-active:#cccccc;
+    --btn-padding:5px 15px;
+}
+
+
+
+/* ############### Header / navigation bar############## */
+
+#header {
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: var(--background-color);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.535);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#navbar li{
+    list-style-type: none;
+}
+
+#navbar li img{
+    width: 18px;
+}
+
+
+
+#navbar li a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    margin: 5px 15px;
+    
+}
+
+#navbar li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: var(--accent-color);
+    transition: width 0.4s ease-in-out;
+    transform: translateY(5px);
+}
+
+#navbar li a:hover::after {
+    width: 100%;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-right .search-box{
+    border: 1 solid;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+.nav-right .search-box input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 300px;
+}
+.nav-right .search-box i{
+    width: 8px;
+    color: #cccccc;
+    padding-right: 0px 5px;
+}
+
+.nav-right a{
+    padding-left: 15px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* End of Navigation bar details (CSS) */
+
+/* Start of side bar menu */
+
+#side-bar{
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    background-color: var(--background-color);
+    padding-top: 90px;
+    padding-left:2% ;
+}
+
+#side-bar .menu-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-right:20px ;
+    color: var(--text-color);
+}
+
+#side-bar .menu-link a img{
+    width: 20px;
+    padding-right:  10px;
+}
+
+#side-bar .menu-link hr{
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+#side-bar .others h3{
+   font-weight: 100;
+   margin-bottom: 5px;
+}
+
+#side-bar .others a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    padding-bottom:15px ;
+}
+
+#side-bar .others a img{
+    width: 20px;
+    margin-right:  10px;
+    border-radius: 10px;
+}
